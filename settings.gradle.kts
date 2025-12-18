@@ -1,1 +1,1 @@
-rootProject.name = "pdfreader"
+rootProject.name = "flowable-demo"

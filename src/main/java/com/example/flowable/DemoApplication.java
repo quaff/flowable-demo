@@ -1,13 +1,13 @@
-package com.example.pdfreader;
+package com.example.flowable;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PdfreaderApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PdfreaderApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
