@@ -21,7 +21,7 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation(platform("org.flowable:flowable-bom:7.2.0"))
-	implementation("org.flowable:flowable-spring-boot-starter")
+	implementation("org.flowable:flowable-spring-boot-starter-process")
 	runtimeOnly("org.springframework.boot:spring-boot-docker-compose")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
